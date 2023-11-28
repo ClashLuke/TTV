@@ -1,0 +1,1 @@
+screen -dmS train bash -c "date ; cd TTV ; git rev-parse HEAD ; git pull ; git rev-parse HEAD ; bash run.sh $@; date ; sleep 1000"
